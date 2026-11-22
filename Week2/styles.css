@@ -23,14 +23,15 @@ body {
 }
 
 header {
-background: var(--brand);
-color: rgb(255, 255, 255);
-padding: 16px 24px ;
-text-align: left;
-display: flex;
-justify-content: space-between;
-align-items: center;
-flex-wrap: wrap;
+  background: var(--brand);
+  color: rgb(255, 255, 255);
+  padding: 15px 55px ;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px 24px;
 }
 
 nav a {
@@ -143,3 +144,7 @@ color: #000000;}
 .new-title {
     color: #ffffff;
 }
+
+
+img { max-width: 100%; height: auto; }
+table { display: block; overflow-x: auto; } /* a wide table scrolls inside itself */
